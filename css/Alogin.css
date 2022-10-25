@@ -1,0 +1,143 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    background-image: url("../img/155.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+form {
+    /*بيتوزع بناءا علي الصفحه */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 520px;
+    background: rgba(0, 0, 0, .5);
+    /*يستخدم لحواف الفورم بيتحكم في الانحنا */
+    border-radius: 150px;
+
+    box-sizing: border-box;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 90px;
+}
+h1 {
+    color: black;
+
+    text-align: center;
+    margin-top: 15px;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: #9992f6;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 150px;
+    font-size: 43px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type="text"],
+[type="password"] {
+    /* position: absolute; */
+    outline: none;
+    text-align: center;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #9992f6;
+    background: none;
+    color: #9992f6;
+    margin-left: 50px;
+
+}
+
+input[type="text"] {
+    top: 140;
+    left: 50;
+}
+
+input[type="password"] {
+    top: 210;
+    left: 50;
+}
+
+input[value="login"] {
+    position: absolute; 
+    top: 550px;
+    left: 480px;
+    width: 131px;
+    height: 36px;
+    background-color: #9992f6;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15;
+    font-size: 20;
+    /* margin-top: 500; */
+    margin-left: 476px;
+}
+
+/* hover تستخد في عمل انيميشن بحيث لما تقف علي الصوره يحصل حاجه */
+input[value="login"]:hover {
+    background: #fff;
+    color: #9992f6;
+
+}
+
+.forg {
+    margin-left: 50px;
+    position: absolute;
+    top: 340px;
+    left: 50px;
+    color: #9992f6;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.reg {
+
+    margin-left: 70px;
+    position: absolute;
+    top: 420px;
+    left: 50px;
+    color: #9992f6;
+    cursor: pointer;
+    /*تصميم الخط*/
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.or {
+    margin-left: 50px;
+    position: absolute;
+    top: 370px;
+    left: 90px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: beige;
+}
+
+P:hover {
+    color: white;
+}
+
+.reg:hover {
+    color: white;
+}
+
+

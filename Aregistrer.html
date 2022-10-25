@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+
+<head>
+    <title>FASHION</title>
+
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <h1>Astro</h1>
+    <h3>Store</h3>
+
+    <div class="container">
+
+        <form name="myform" onsubmit="return validateform()" > 
+
+            <label>
+                <h2>Admin register</h2>
+            </label>
+            <br>
+            <input class="ah" name=" First Name " type="text" placeholder=" First Name " id="fname" required>
+            <br>
+            <input class="ah" name="Last Name" type="text" placeholder=" Last Name" id="lname" required>
+            <br>
+            <input class="ah" type="text" name="Email" placeholder=" User name" id="user" required>
+            <br>
+            <input class="ah" type="text" name="pass" placeholder=" Your Password" id="pass" minlength="8"
+                maxlength="16" required>
+            <br>
+            <input class="ah" name="Address" type="text" placeholder=" Your Address" id="adress" required>
+            <br>
+            <input class="ah" name="phone number" type="text" placeholder=" Your Phone" id="phone" required>
+            <br>
+            <br>
+            <input class="ah" type="reset">
+            <input class="ah" type="submit" onclick="addDAta()">
+        </form>
+    </div>
+    <script type="text/javascript" src="index.js">
+    </script>
+</body>
+
+</html>

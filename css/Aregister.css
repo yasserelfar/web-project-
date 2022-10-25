@@ -1,0 +1,155 @@
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+::placeholder {
+    color: beige;
+}
+
+h1 {
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    margin-top: -900px;
+}
+
+h3 {
+    margin-left: 140px;
+    position: absolute;
+    color: #9992f6;
+    font-size: 40px;
+    margin-top: -820px;
+}
+
+body {
+    background-image: url("../img/155.jpg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+label {
+    color: beige;
+    text-align: center;
+
+}
+
+.container {
+    width: 15%;
+    height: 70%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    padding: 0 90px;
+    border-radius: 150px;
+}
+
+.ah {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: black;
+    border-color: rgba(255, 255, 255, 0.01);
+    border-radius: 50px;
+    margin: 5px;
+}
+
+input[name=" Frist Name "],
+[name="Address"],
+[name="phone number"],
+[name="Last Name"],
+[name="Email"],
+[name="pass"],
+[name="country"] {
+    outline: none;
+    text-align: center;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 3px solid #9992f6;
+    background: none;
+    position: 5px;
+    color: #fff;
+}
+
+input[name=" Frist Name "] {
+    top: 140;
+    left: 50;
+}
+
+input[name="Last Name"] {
+    top: 450;
+    left: 50;
+}
+
+input[name="Email"] {
+    top: 380;
+    left: 50;
+}
+
+input[name="pass"] {
+    top: 450;
+    left: 50;
+}
+
+input[name="country"] {
+    top: 520;
+    left: 50;
+}
+
+input[name="Address"] {
+    top: 690;
+    left: 50;
+}
+
+input[name="phone number"] {
+    top: 760;
+    left: 50;
+}
+
+input[type="submit"] {
+
+    top: 900;
+    left: 110;
+    width: 230;
+    height: 35;
+    background-color: #9992f6;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 0px;
+    font-size: 20;
+}
+
+input[type="reset"] {
+    margin-left: 90px;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    top: 900;
+    left: 510;
+    width: 330;
+    height: 35;
+    background-color: #9992f6;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20;
+}
+
+input[type="submit"]:hover {
+    background: #fff;
+    color: #9992f6;
+
+}
+
+input[type="reset"]:hover {
+    background: #fff;
+    color: #9992f6;
+
+}
